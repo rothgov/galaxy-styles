@@ -1,0 +1,180 @@
+/*
+Title: Superfast Styles for Jadu Galaxies Spectral Theme
+Description: Styles override default theme styles to apply corporate colours and fonts
+Version: 1.0
+Created by: John Kelly
+Date created: 15/07/2020
+Last updated: 15/07/2020
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+body {
+  font-style: 100%;
+  font-family: 'Open Sans', sans-serif;
+  background: #424242;
+}
+
+input,
+button {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  color: #424242;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0;
+  margin-bottom: 1.25rem;
+}
+
+h1,
+h2,
+h3 {
+  color: #ab0837;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  text-transform: none;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.125rem;
+}
+
+.summary {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+.wrapper.style5 {
+  font-family: 'Open Sans', sans-serif;
+  color: #ab0837;
+}
+
+.wrapper.style5 h2,
+.wrapper.style5 h3 {
+  color: #ab0837;
+}
+
+a:link {
+  color: #ab0837;
+  border-bottom: solid 2px;
+}
+
+body.landing #header,
+#header {
+  background-color: #212121;
+  border-bottom: 1px solid #000000;
+}
+
+body.landing #footer,
+#footer {
+  background-color: #212121;
+  border-bottom: 5rem solid #000000;
+}
+
+#footer .copyright {
+  color: #ffffff;
+  font-size: 0.875rem;
+  letter-spacing: 0;
+  list-style: none;
+  text-transform: ;
+}
+
+#header h1 {
+  color: #ffffff;
+  font-size: 1.25rem;
+  margin-top: -1rem;
+}
+
+#header .logo {
+  color: #ffffff;
+  font-size: 1.25rem;
+  padding-top: .5rem;
+}
+
+#banner h2,
+header h2 {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+header h2 {
+  color: #ffffff;
+}
+
+#menu {
+  color: #ffffff;
+  background-color: #ab0837;
+}
+
+#menu a.list__link {
+  font-size: 1rem;
+  text-transform: none;
+  letter-spacing: normal;
+  font-weight: 600; 
+}
+
+#menu h2 {
+  font-size: 1.5rem;
+  text-transform: none;
+  letter-spacing: normal;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.wrapper > .inner {
+    width: 72em;
+    margin: 0 auto;
+}
+
+/* Widget - Latest news */
+
+.widget-latest-news {
+  outline: #ccd3df;
+  outline-style: solid;
+  outline-width: 2px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 24rem;
+  overflow-y: scroll;
+}
+
+.listing__heading {
+  display: block;
+  width: 100%;
+}
+
+h2.listing__heading {
+  font-size: 1rem;
+  margin-top: 0.25rem;
+}
+
+p.listing__summary {
+  font-size: 0.875rem;
+  margin-bottom: 0.25rem;
+}
