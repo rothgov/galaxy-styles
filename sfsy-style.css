@@ -11,7 +11,7 @@ Last updated: 16/07/2020
 body {
     font-style: 100%;
     font-family: 'Open Sans', sans-serif;
-    background: #424242;
+    background: #131313;
 }
 
 input,
@@ -20,7 +20,7 @@ button {
 }
 
 p {
-    color: #424242;
+    color: #131313;
     font-size: 1rem;
     line-height: 1.5;
     letter-spacing: 0;
@@ -29,14 +29,17 @@ p {
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
     color: #ab0837;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 0;
     font-weight: 700;
     line-height: 1.25;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
+    margin-top: 2.25rem;
+    margin-bottom: 0.75rem;
     text-transform: none;
 }
 
@@ -60,22 +63,31 @@ h5 {
     font-size: 1.125rem;
 }
 
+h6 {
+    font-size: 1rem;
+}
+
+.wrapper.style5 ul {
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+
+li {
+    margin-bottom: .5rem;
+}
+
 .summary {
     font-size: 1.125rem;
     font-weight: 600;
 }
 
-h6 {
-    font-size: 1rem;
-}
-
-.wrapper.style5 {
-    font-family: 'Open Sans', sans-serif;
-    color: #ab0837;
-}
 
 .wrapper.style5 h2,
-.wrapper.style5 h3 {
+.wrapper.style5 h3,
+.wrapper.style5 h4, 
+.wrapper.style5 h5 
+.wrapper.style5 h6 {
     color: #ab0837;
 }
 
@@ -86,13 +98,13 @@ a:link {
 
 body.landing #header,
 #header {
-    background-color: #212121;
+    background-color: #131313;
     border-bottom: 1px solid #000000;
 }
 
 body.landing #footer,
 #footer {
-    background-color: #212121;
+    background-color: #131313;
     border-bottom: 5rem solid #000000;
 }
 
@@ -189,6 +201,26 @@ header h2 {
 
 /* Utility Classes */
 
+.bg-white {
+    background-color: #ffffff;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.bg-darkgrey {
+    background-color: #131313;
+}
+
+.bg-grey {
+    background-color: #5f5f5f;
+}
+
+.bg-lightgrey {
+    background-color: #dfdfdf;
+}
+
 .bg-blue {
     background-color: #2196f3;
 }
@@ -207,4 +239,36 @@ header h2 {
 
 .white {
     color: #ffffff;
+}
+
+.black {
+    color: #000000;
+}
+
+.darkgrey {
+    color: #131313;
+}
+
+.grey {
+    color: #5f5f5f;
+}
+
+.lightgrey {
+    color: #dfdfdf;
+}
+
+.blue {
+    color: #2196f3;
+}
+
+.green {
+    color: #009688;
+}
+
+.red {
+    color: #ab0837;
+}
+
+.purple {
+    color: #6a1179;
 }
