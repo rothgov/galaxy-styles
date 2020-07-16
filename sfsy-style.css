@@ -199,6 +199,10 @@ header h2 {
 
 /* Utility Classes */
 
+.tc {
+    text-align: center;
+}
+
 .bg-white {
     background-color: #ffffff;
 }
