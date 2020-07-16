@@ -156,9 +156,33 @@ header h2 {
     color: #ffffff;
 }
 
+.row {
+    padding-left: .25rem;
+    padding-right: .25rem;
+}
+
+
+/* Wrapper */
+
+.wrapper {
+    padding-left: .25rem;
+}
+
 .wrapper>.inner {
     width: 72em;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+    .wrapper>.inner {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .wrapper>.inner {
+        width: 100%;
+    }
 }
 
 
