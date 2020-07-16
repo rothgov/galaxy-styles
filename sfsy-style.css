@@ -203,6 +203,10 @@ header h2 {
     text-align: center;
 }
 
+.pa3 {
+    padding: 1rem;
+}
+
 .bg-white {
     background-color: #ffffff;
 }
