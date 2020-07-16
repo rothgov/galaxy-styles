@@ -151,33 +151,41 @@ header h2 {
     margin: 0 auto;
 }
 
+/* Cards */
+
+.card {
+        display: block;
+      }
+
+      .card h3 {
+        color: #ffffff;
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        line-height: 1.2;
+      }
+
+      .card a {
+        display: inline-block;
+        margin-left: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        border: 2px solid #ffffff;
+        border-radius: 0.25rem;
+        color: #ffffff;
+        font-size: 1.125;
+      }
+
+      .card a:hover {
+        background-color: #414141;
+      }
+
 
 /* Utility Classes */
-
-.ph3 {
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-.pt3 {
-    padding-top: 1rem;
-}
-
-.pb0 {
-    padding-bottom: 0;
-}
-
-.pb3 {
-    padding-bottom: 1rem;
-}
-
-.f3 {
-    font-size: 1.5rem;
-}
-
-.f4 {
-    font-size: 1.25rem;
-}
 
 .bg-blue {
     background-color: #2196f3;
@@ -196,21 +204,5 @@ header h2 {
 }
 
 .white {
-    color: white;
-}
-
-.dim {
-    opacity: 1;
-    transition: opacity .15s ease-in;
-}
-
-.dim:hover,
-.dim:focus {
-    opacity: .5;
-    transition: opacity .15s ease-in;
-}
-
-.dim:active {
-    opacity: .8;
-    transition: opacity .15s ease-out;
+    color: #ffffff;
 }
