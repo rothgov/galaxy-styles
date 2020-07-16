@@ -94,6 +94,11 @@ a:link {
     border-bottom: solid 2px;
 }
 
+a:visited {
+    color: #ab0837;
+    border-bottom: solid 2px;
+}
+
 body.landing #header,
 #header {
     background-color: #131313;
