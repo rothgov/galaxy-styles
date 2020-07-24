@@ -185,6 +185,24 @@ h6 {
     color: #85dcfe;
 }
 
+#menu {
+  color: #2E4D61;
+  background-color: #FF8563;
+}
+
+#menu a.list__link {
+  font-size: 1.125rem;
+  text-transform: none;
+  font-weight: 600;
+  letter-spacing: 0;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+#menu a.list__link:hover {
+  color:#85dcfe;
+}
+
 .wrapper.style5 {
   font-family: 'Poppins', sans-serif;
   color: #002554;
@@ -298,17 +316,6 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
     letter-spacing: 0.225em;
     text-transform: none;
   letter-spacing: .5;
-
-#menu {
-  color: #2E4D61;
-  background-color: #FF8563;
-}
-
-#menu a.list__link {
-  text-transform: none;
-  font-weight: 600;
-  letter-spacing: 0;
-}
   
 .row {
     padding-left: .25rem;
