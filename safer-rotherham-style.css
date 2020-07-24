@@ -39,6 +39,10 @@ p {
   margin-bottom: 1.25rem;
 }
 
+.summary {
+  font-size: 1.25rem;
+}
+
 main a:link {
     color: #FF8563 !important;
     border-bottom: solid 2px;
@@ -98,6 +102,87 @@ h5 {
 
 h6 {
   font-size: 1rem;
+}
+
+
+/* Utility Classes */
+
+.db {
+    display: block;
+}
+
+.tc {
+    text-align: center;
+}
+  
+  .small {
+    font-size: .875rem;
+  }
+
+.pa3 {
+    padding: 1rem;
+}
+
+.mv0 {
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.bg-darkblue {
+    background-color: #2e4d61;
+}
+
+.bg-orange {
+    background-color: #ff8563;
+}
+
+.bg-yellow {
+    background-color: #fcd45d;
+}
+
+.bg-green {
+    background-color: #92e0a7;
+}
+
+.bg-lightblue {
+    background-color: #85dcfe;
+}
+
+
+.white {
+    color: #ffffff;
+}
+
+.black {
+    color: #000000;
+}
+
+.darkblue {
+    color: #2e4d61;
+}
+
+.orange {
+    color: #ff8563;
+}
+
+.yellow {
+    color: #fcd45d;
+}
+
+.green {
+    color: #92e0a7;
+}
+
+.lightblue {
+    color: #85dcfe;
 }
 
 .wrapper.style5 {
@@ -260,109 +345,3 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
         width: 90%;
     }
   }
-
-/* Cards */
-
-.card {
-    display: block;
-}
-
-.card h3 {
-    color: #ffffff !important;
-    font-size: 1.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: .5rem;
-    line-height: 1.2;
-}
-
-.card a {
-    display: inline-block;
-    margin-left: 1rem;
-    margin-top: .25rem;
-    margin-bottom: .75rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    border: 2px solid #ffffff;
-    border-radius: 0.25rem;
-    color: #ffffff;
-    font-size: 1.125;
-}
-
-.card a:hover {
-    background-color: #414141;
-}
-
-
-/* Utility Classes */
-
-.tc {
-    text-align: center;
-}
-  
-  .small {
-    font-size: .875rem;
-  }
-
-.pa3 {
-    padding: 1rem;
-}
-
-.bg-white {
-    background-color: #ffffff;
-}
-
-.bg-black {
-    background-color: #000000;
-}
-
-.bg-darkblue {
-    background-color: #2e4d61;
-}
-
-.bg-orange {
-    background-color: #ff8563;
-}
-
-.bg-yellow {
-    background-color: #fcd45d;
-}
-
-.bg-green {
-    background-color: #92e0a7;
-}
-
-.bg-lightblue {
-    background-color: #85dcfe;
-}
-
-
-.white {
-    color: #ffffff;
-}
-
-.black {
-    color: #000000;
-}
-
-.darkblue {
-    color: #2e4d61;
-}
-
-.orange {
-    color: #ff8563;
-}
-
-.yellow {
-    color: #fcd45d;
-}
-
-.green {
-    color: #92e0a7;
-}
-
-.lightblue {
-    color: #85dcfe;
-}
