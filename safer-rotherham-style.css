@@ -311,9 +311,11 @@ body.landing #footer,
 
 #banner .more {
     color: #2E4D61;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     text-transform: none;
     letter-spacing: .5;
+    position: absolute;
+    bottom: -2rem;
 }
 
 #footer input {
