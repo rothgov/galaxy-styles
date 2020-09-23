@@ -18,5 +18,5 @@
 }
 
 .form__label .visually-hidden {
-    color: #ffffff;
+    color: #ffffff !important;
 }
