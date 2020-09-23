@@ -17,6 +17,7 @@
   color: #000000;
 }
 
-.form__label .visually-hidden {
+.form__label,
+.visually-hidden {
     color: #ffffff !important;
 }
