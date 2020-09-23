@@ -1,2 +1,3 @@
-# galaxy-styles
-Additional style sheets for Jadu Galaxy Themes
+# Styles
+
+Additional styles for www.rotherham.gov.uk and Jadu Galaxy Themes
