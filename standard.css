@@ -17,7 +17,6 @@
   color: #000000;
 }
 
-.form__field, .form__textarea, .google-translate .goog-te-combo, .form__select {
-    background-color: #fff;
-    border: none !important;
+.form__label .visually-hidden {
+    color: #ffffff;
 }
