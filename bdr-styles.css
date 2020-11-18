@@ -38,8 +38,8 @@ body {
 
 p {
     color: #111111;
-    font-size: 1rem;
-    line-height: 1.5;
+    font-size: 1.25rem;
+    line-height: 1.4;
     letter-spacing: 0;
     margin-bottom: .75rem;
 }
@@ -244,7 +244,8 @@ button,
     text-overflow: ellipsis;
 }
 
-#banner h2 {
+.widget-latest-news p {
+    font-size: .75rem;
 }
 
 #header nav>ul>li>a {
