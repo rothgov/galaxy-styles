@@ -1,0 +1,286 @@
+/*
+Title: BDR Waste Partnership Styles for Jadu Galaxies Spectral Theme
+Description: Styles override default theme styles to apply brand colours and fonts
+Version: 1.0
+Created by: John Kelly
+Date created: 18/11/2020
+Last updated: 18/11/2020
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap');
+
+@import "tachyons.css" screen;
+
+a:hover {
+    border-bottom: 0;
+}
+
+a:active,
+a:focus,
+input:active,
+input:focus,
+select:active,
+select:focus,
+textarea:active,
+textarea:focus {
+    transition: none;
+    outline-width: 3px;
+    outline-style: solid;
+    outline-color: #F3A536;
+}
+
+body {
+    font-style: 100%;
+    background: #111111;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+p {
+    color: #111111;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0;
+    margin-bottom: .75rem;
+}
+
+.summary {
+    font-size: 1.25rem;
+}
+
+main a:link {
+    color: #357edd !important;
+    border-bottom: solid 2px;
+}
+
+main a:visited {
+    color: #357edd;
+    border-bottom: solid 2px;
+}
+
+main a:hover {
+  opacity: .5;
+    transition: .15s ease-in;
+}
+
+main ul,
+ol {
+    color: #2E4D61;
+    font-size: 1rem;
+    line-height: 1.75;
+    letter-spacing: 0;
+    margin-bottom: 1.25rem;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.25;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    text-transform: none;
+}
+
+h1 {
+    color: #FF8563;
+    font-size: 2.25rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1.125rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+#header .logo > * {
+    font-size: 1.25rem; 
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    font-weight: 400;
+    border: 0;
+    margin-top: 0;
+}
+
+#menu {
+    color: #ffffff;
+    background-color: #00449e;
+}
+
+#menu a.list__link {
+    font-size: 1.125rem;
+    text-transform: none;
+    font-weight: 600;
+    letter-spacing: 0;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+#menu a.list__link:hover {
+    color: #85dcfe;
+}
+
+.wrapper.style5 {
+    color: #000000;
+}
+
+.wrapper.style5 h2,
+.wrapper.style5 h3 {
+    color: #000000;
+}
+
+.wrapper.style5 h4 {
+    color: #000000;
+}
+
+.wrapper.style5 .widget-width--21,
+.widget-width--20,
+.widget-width--19,
+.widget-width--18,
+.widget-width--17,
+.widget-width--16,
+.widget-width--15,
+.widget-width--14,
+.widget-width--13 {
+    width: 100%;
+}
+
+
+/* Large (lg) */
+
+@media (min-width: 1024px) {
+    .wrapper.style5 .widget-width--21,
+    .widget-width--20,
+    .widget-width--19,
+    .widget-width--18,
+    .widget-width--17,
+    .widget-width--16,
+    .widget-width--15,
+    .widget-width--14,
+    .widget-width--13 {
+        width: 20%;
+    }
+}
+
+
+/* Extra Large (xl) */
+
+@media (min-width: 1280px) {
+    .wrapper.style5 .widget-width--21,
+    .widget-width--20,
+    .widget-width--19,
+    .widget-width--18,
+    .widget-width--17,
+    .widget-width--16,
+    .widget-width--15,
+    .widget-width--14,
+    .widget-width--13 {
+        width: 20%;
+    }
+}
+
+#footer .copyright {
+    color: #ffffff;
+    font-size: 0.875rem;
+    letter-spacing: 0;
+    list-style: none;
+    text-transform: none;
+}
+
+#banner .more {
+    font-size: 1.125rem;
+    text-transform: none;
+    letter-spacing: .5;
+    position: absolute;
+    bottom: -2rem;
+}
+
+#footer input {
+    display: inline;
+    width: auto;
+    background-color: #2E4D61;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+.button {
+    background-color: transparent;
+    border-radius: 3px;
+    border: 0;
+    box-shadow: inset 0 0 0 2px #fff;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+    height: 3rem;
+    letter-spacing: 0.2;
+    line-height: 3rem;
+    max-width: 30rem;
+    padding: 0 3rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#banner h2 {
+}
+
+#header nav>ul>li>a {
+    font-size: 0.8em;
+    letter-spacing: 0.225em;
+    text-transform: none;
+    letter-spacing: .5;
+    .row {
+        padding-left: .25rem;
+        padding-right: .25rem;
+    }
+    /* Wrapper */
+    .wrapper {
+        padding-left: .25rem;
+    }
+    .wrapper>.inner {
+        width: 72em;
+        margin: 0 auto;
+    }
+    /* Small (sm) */
+    @media (min-width: 640px) {
+        /* ... */
+    }
+    /* Medium (md) */
+    @media (min-width: 768px) {
+        /* ... */
+    }
+    /* Large (lg) */
+    @media (min-width: 1024px) {
+        .wrapper>.inner {
+            width: 100%;
+        }
+    }
+    /* Extra Large (xl) */
+    @media (min-width: 1280px) {
+        .wrapper>.inner {
+            width: 90%;
+        }
+    }
