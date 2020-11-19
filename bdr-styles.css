@@ -81,10 +81,10 @@ h3 {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
     text-transform: none;
+    color: #00AB84;
 }
 
 h1 {
-    color: #FF8563;
     font-size: 2.25rem;
 }
 
@@ -137,12 +137,12 @@ h6 {
 }
 
 .wrapper.style5 {
-    color: #000000;
+    color: #00AB84;
 }
 
 .wrapper.style5 h2,
 .wrapper.style5 h3 {
-    color: #000000;
+    color: #00AB84;
 }
 
 .wrapper.style5 h4 {
@@ -245,7 +245,7 @@ button,
 }
 
 .widget-latest-news p {
-    font-size: .75rem;
+    font-size: .875rem;
 }
 
 #header nav>ul>li>a {
