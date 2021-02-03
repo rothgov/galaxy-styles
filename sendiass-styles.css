@@ -1,0 +1,126 @@
+/*
+Title: Rotherham SENDIASS Styles for Jadu Galaxies Spectral Theme
+Description: Styles override default theme styles to apply corporate colours and fonts
+Version: 1.1
+Created by: John Kelly
+Date created: 03/02/2021
+Last updated: 02/02/2021
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Muli:wght@400;600;700&display=swap");
+
+body {
+  font-style: 100%;
+  font-family: "Muli", sans-serif;
+  background: rgba(76, 29, 149);
+}
+
+input,
+button {
+  font-family: "Muli", sans-serif;
+}
+
+p ul {
+  color: rgba(76, 29, 149);
+  font-size: 1.125rem;
+  line-height: 1.5;
+  letter-spacing: 0;
+  margin-bottom: 1.25rem;
+}
+
+h1,
+h2,
+h3 {
+  color: rgba(76, 29, 149);
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 0;
+  line-height: 1.25;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.125rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+#main header h2 {
+  color: #ffffff;
+}
+
+.wrapper.style5 {
+  font-family: "Muli", sans-serif;
+  color: rgba(76, 29, 149);
+}
+
+.wrapper.style5 h2,
+.wrapper.style5 h3 {
+  color: rgba(76, 29, 149);
+}
+
+a:link {
+  color: rgba(76, 29, 149);
+}
+
+body.landing #header,
+#header {
+  background-color: rgba(76, 29, 149);
+}
+
+body.landing #footer,
+#footer {
+  background-color: rgba(91, 33, 182);
+  border-bottom: 5rem solid rgba(76, 29, 149);
+}
+
+#footer .copyright {
+  color: #ffffff;
+  font-size: 0.875rem;
+  letter-spacing: 0;
+  list-style: none;
+  text-transform: ;
+}
+
+#header h1 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding-top: 0.25rem;
+  margin: 0;
+}
+
+#banner h2 {
+  color: #ffffff;
+  padding-top: 1.255rem;
+}
+
+#menu {
+  color: rgba(76, 29, 149);
+  background-color: rgba(252, 231, 243);
+}
+
+#menu a.list__link {
+  font-weight: 600;
+}
+
+.list--breadcrumb a {
+  color: #ffffff;
+}
