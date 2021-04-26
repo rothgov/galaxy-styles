@@ -7,21 +7,20 @@ Date created: 03/02/2021
 Last updated: 26/04/2021
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap");
 html {
   font-size: 100%;
 }
 
 body {
-  font-family: 'Comic Neue', cursive;
+  font-family: "Comic Neue", cursive;
 }
 
 p {
   color: rgba(17, 24, 39, 1);
   letter-spacing: 0em;
   line-height: 1.5;
-  margin-top: .75rem;
+  margin-top: 0.75rem;
   margin-bottom: 1rem;
   font-size: 1.125rem;
 }
@@ -42,7 +41,7 @@ a:hover {
 
 .wrapper ul {
   list-style: none;
-  margin-top: .75rem;
+  margin-top: 0.75rem;
   margin-bottom: 1.5rem;
 }
 
@@ -51,7 +50,7 @@ a:hover {
   letter-spacing: 0em;
   color: rgba(17, 24, 39, 1);
   line-height: 1.5;
-  margin-bottom: .75rem;
+  margin-bottom: 0.75rem;
 }
 
 .wrapper li::before {
@@ -67,10 +66,10 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0em;
   text-transform: none;
   font-weight: 700;
-  font-family: 'Comic Neue', cursive;
+  font-family: "Comic Neue", cursive;
   color: rgba(109, 40, 217, 1);
   margin-top: 2rem;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 h1 {
@@ -115,12 +114,12 @@ h6 {
   font-size: 1rem;
   letter-spacing: 0.05em;
   text-transform: none;
-  margin-top: -.25rem;
+  margin-top: -0.25rem;
 }
 
 #header h1 {
   font-size: 1.5rem;
-  margin-top: -.25rem;
+  margin-top: -0.25rem;
   margin-bottom: 0;
   font-weight: 700 !important;
 }
@@ -165,14 +164,13 @@ h6 {
   line-height: 1;
   color: rgba(255, 255, 255, 1);
   margin-top: 8rem !important;
-  ;
 }
 
 #main>header h2 {
   font-size: 3rem;
   line-height: 1;
   margin-bottom: 1.5rem;
-  color: rgba(221, 214, 254, 1)
+  color: rgba(221, 214, 254, 1);
 }
 
 .row>* {
@@ -249,11 +247,11 @@ h6 {
 #searchbtn {
   border-radius: 0.375rem;
   text-transform: none;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.05rem;
   font-size: 1rem;
   border: 2px solid rgba(255, 255, 255, 1);
   box-shadow: none;
-  font-family: 'Comic Neue', cursive;
+  font-family: "Comic Neue", cursive;
 }
 
 #searchbtn:hover {
@@ -266,4 +264,90 @@ h6 {
 
 ::placeholder {
   opacity: 0;
+}
+
+.supplement {
+  background-color: rgba(252, 231, 243, 1);
+  clear: both;
+  float: left;
+  width: 100%;
+  margin: 0 0 1.5rem;
+  padding: 1.5rem 1.5rem;
+}
+
+.supplement img {
+  margin-bottom: 0;
+}
+
+h2.supplement__heading {
+  font-size: 1.875rem;
+}
+
+.button--primary {
+  font-size: 1rem;
+  text-transform: none;
+  letter-spacing: 0.05rem;
+  background-color: rgba(91, 33, 182, 1);
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: none !important;
+  border: 2px solid rgba(76, 29, 149, 1);
+}
+
+.button--primary:hover {
+  background-color: rgba(76, 29, 149, 1)!important;
+  border-bottom: none;
+}
+
+.alert {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.alert p {
+  margin-bottom: 0;
+  color: white;
+}
+
+a.alert__link {
+  font-size: 1.125rem;
+  letter-spacing: 0;
+  color: rgba(255, 255, 255, 1);
+  margin-top: .5rem;
+}
+
+h2.alert__heading {
+  color: white !important;
+  margin-bottom: -.5rem;
+  font-size: 1.875rem;
+}
+
+.alert--information {
+  background-color: rgba(219, 39, 119, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.top-task__heading {
+  font-size: 1.125rem;
+  border: 2px solid rgba(91, 33, 182, 1);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  border-radius: 0.375rem;
+}
+
+.top-task__heading:hover {
+  background-color: rgba(252, 231, 243, 1);
 }
