@@ -4,7 +4,7 @@ Description: Styles override default theme styles to apply corporate colours and
 Version: 1.2
 Created by: John Kelly
 Date created: 03/02/2021
-Last updated: 26/04/2021
+Last updated: 27/04/2021
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap");
@@ -23,6 +23,10 @@ p {
   margin-top: 0.75rem;
   margin-bottom: 1rem;
   font-size: 1.125rem;
+}
+
+.summary {
+  font-size: 1.25rem;
 }
 
 a:link {
@@ -62,7 +66,12 @@ a:hover {
   margin-left: -1em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   letter-spacing: 0em;
   text-transform: none;
   font-weight: 700;
@@ -106,7 +115,7 @@ h6 {
   background-color: rgba(76, 29, 149, 1) !important;
 }
 
-#header nav>ul>li>a {
+#header nav > ul > li > a {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -144,7 +153,7 @@ h6 {
   background-color: rgba(252, 231, 243, 1);
 }
 
-#menu ul>li>a {
+#menu ul > li > a {
   border: 0;
   color: inherit;
   display: block;
@@ -155,7 +164,7 @@ h6 {
   color: rgba(17, 24, 39, 1);
 }
 
-#menu ul>li>a:hover {
+#menu ul > li > a:hover {
   color: rgba(109, 40, 217, 1);
 }
 
@@ -166,14 +175,14 @@ h6 {
   margin-top: 8rem !important;
 }
 
-#main>header h2 {
+#main > header h2 {
   font-size: 3rem;
   line-height: 1;
   margin-bottom: 1.5rem;
   color: rgba(221, 214, 254, 1);
 }
 
-.row>* {
+.row > * {
   padding: 0;
 }
 
@@ -258,7 +267,10 @@ h6 {
   background-color: rgba(76, 29, 149, 1);
 }
 
-#search-site-header, #searchbtn, input[type="search"], select {
+#search-site-header,
+#searchbtn,
+input[type="search"],
+select {
   height: 3.5rem;
 }
 
@@ -294,7 +306,7 @@ h2.supplement__heading {
 }
 
 .button--primary:hover {
-  background-color: rgba(76, 29, 149, 1)!important;
+  background-color: rgba(76, 29, 149, 1) !important;
   border-bottom: none;
 }
 
@@ -324,12 +336,12 @@ a.alert__link {
   font-size: 1.125rem;
   letter-spacing: 0;
   color: rgba(255, 255, 255, 1);
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 h2.alert__heading {
   color: white !important;
-  margin-bottom: -.5rem;
+  margin-bottom: -0.5rem;
   font-size: 1.875rem;
 }
 
@@ -343,8 +355,8 @@ h2.alert__heading {
   border: 2px solid rgba(91, 33, 182, 1);
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   border-radius: 0.375rem;
 }
 
