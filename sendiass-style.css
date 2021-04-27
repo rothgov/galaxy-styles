@@ -340,7 +340,7 @@ a.alert__link {
 }
 
 h2.alert__heading {
-  color: white !important;
+  color: rgba(255, 255, 255, 1) !important;
   margin-bottom: -0.5rem;
   font-size: 1.875rem;
 }
