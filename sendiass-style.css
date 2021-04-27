@@ -23,6 +23,11 @@ p {
   margin-top: 0.75rem;
   margin-bottom: 1rem;
   font-size: 1.125rem;
+  max-width: 34em;
+}
+
+li {
+  max-width: 34em;
 }
 
 .summary {
@@ -293,6 +298,7 @@ select {
 
 h2.supplement__heading {
   font-size: 1.875rem;
+  margin-top: 0;
 }
 
 .button--primary {
