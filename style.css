@@ -1,0 +1,159 @@
+/*
+Title: RMBC Styles for Jadu Galaxies Spectral Theme
+Description: Styles override default theme styles to apply corporate colours and fonts
+Version: 1.1
+Created by: John Kelly
+Date created: 23/06/2020
+Last updated: 28/05/2021
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Muli:wght@400;600;700&display=swap");
+
+body {
+  font-style: 100%;
+  font-family: "Muli", sans-serif;
+  background: #002554;
+}
+
+input,
+button {
+  font-family: "Muli", sans-serif;
+}
+
+p {
+  color: #002554;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0;
+  margin-bottom: 1.25rem;
+}
+
+h1,
+h2,
+h3 {
+  color: #002554;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 0;
+  line-height: 1.25;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.125rem;
+}
+
+.summary {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+.wrapper.style5 {
+  font-family: "Muli", sans-serif;
+  color: #002554;
+}
+
+.wrapper.style5 h2,
+.wrapper.style5 h3 {
+  color: #002554;
+}
+
+a:link {
+  color: #002554;
+  border-bottom: solid 2px;
+}
+
+#main > header, body.landing #page-wrapper, body.is-mobile.landing #banner, body.is-mobile.landing .wrapper.style4 {
+    background-image: -moz-linear-gradient(top, rgba(00,00,00,0.4), rgba(00,00,00,0.4)), url(/site/images/rotherliving_hero.jpg) !important;
+    background-image: -webkit-linear-gradient(top, rgba(00,00,00,0.4), rgba(00,00,00,0.4)), url(/site/images/rotherliving_hero.jpg) !important;
+    background-image: -ms-linear-gradient(top, rgba(00,00,00,0.4), rgba(00,00,00,0.4)), url(/site/images/rotherliving_hero.jpg) !important;
+    background-image: linear-gradient(to top, rgba(00,00,00,0.4), rgba(00,00,00,0.4)), url(/site/images/rotherliving_hero.jpg) !important;
+   
+}
+
+body.landing #footer,
+#footer {
+  background-color: #002554;
+  border-bottom: 5rem solid #001a3e;
+}
+
+#footer .copyright {
+  color: #ffffff;
+  font-size: 0.875rem;
+  letter-spacing: 0;
+  list-style: none;
+  text-transform: ;
+}
+
+#header h1 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding-top: 0.25rem;
+  margin: 0;
+}
+
+#banner h2,
+header h2 {
+  color: #ffffff;
+  padding-top: 1.255rem;
+}
+
+header h2 {
+  color: #ffffff;
+}
+
+#menu {
+  color: #002554;
+  background-color: #66cbf3;
+}
+
+#menu a.list__link {
+  font-weight: 600;
+}
+
+/* Widget - Latest news */
+
+.widget-latest-news {
+  outline: #ccd3df;
+  outline-style: solid;
+  outline-width: 2px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 24rem;
+  overflow-y: scroll;
+}
+
+.listing__heading {
+  display: block;
+  width: 100%;
+}
+
+h2.listing__heading {
+  font-size: 1rem;
+  margin-top: 0.25rem;
+}
+
+p.listing__summary {
+  font-size: 0.875rem;
+  margin-bottom: 0.25rem;
+}
