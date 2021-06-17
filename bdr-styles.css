@@ -4,7 +4,7 @@ Description: Styles override default theme styles to apply brand colours and fon
 Version: 1.0
 Created by: John Kelly
 Date created: 18/11/2020
-Last updated: 19/11/2020
+Last updated: 17/06/2021
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap');
@@ -65,7 +65,7 @@ main a:hover {
 
 main ul,
 ol {
-    color: #2E4D61;
+    color: #357edd;
     font-size: 1rem;
     line-height: 1.75;
     letter-spacing: 0;
